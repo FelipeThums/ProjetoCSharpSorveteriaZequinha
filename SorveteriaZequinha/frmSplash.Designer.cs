@@ -74,7 +74,6 @@
             this.progressBar1.Size = new System.Drawing.Size(167, 23);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 3;
-            this.progressBar1.Value = 100;
             // 
             // frmSplash
             // 
