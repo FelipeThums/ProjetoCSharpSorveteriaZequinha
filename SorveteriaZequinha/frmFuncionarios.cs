@@ -91,5 +91,19 @@ namespace SorveteriaZequinha
         {
 
         }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            frmPesquisarFuncionarios abrir = new frmPesquisarFuncionarios();
+            abrir.Show();
+            this .Hide();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenuPrincipal abrir = new frmMenuPrincipal();
+            abrir.Show();
+            this .Hide();  
+        }
     }
 }
